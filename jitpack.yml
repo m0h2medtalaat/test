@@ -1,2 +1,2 @@
-FILE="-Dfile=cowpay-android-sdk-1.0.6.aar" 
-mvn install:install-file $FILE -DgroupId=com.github.m0h2medtalaat -DartifactId=cowpay-android-sdk -Dversion=1.0.6 -Dpackaging=aar -DpomFile=pom.xml
+FILE="-Dfile=cowpay-android-sdk-1.0.7.aar" 
+mvn install:install-file $FILE -DgroupId=com.github.m0h2medtalaat -DartifactId=cowpay-android-sdk -Dversion=1.0.7 -Dpackaging=aar -DpomFile=pom.xml
