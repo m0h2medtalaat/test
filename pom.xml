@@ -4,6 +4,7 @@
   <groupId>com.github.m0h2medtalaat</groupId>
   <artifactId>cowpay-android-sdk</artifactId>
   <version>1.0.9</version>
+  <extensions>true</extensions>
   <packaging>aar</packaging>
   <dependencies/>
 </project>
