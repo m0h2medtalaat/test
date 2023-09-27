@@ -3,9 +3,18 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.m0h2medtalaat</groupId>
   <artifactId>cowpay-android-sdk</artifactId>
-  <version>1.0.10</version>
-<extensions>true</extensions>
+  <version>1.0.11</version>
   <packaging>aar</packaging>
+   <build>
+    <plugins>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.3.0</version> <!-- use latest release -->
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
   <dependencies/>
 </project>
 
